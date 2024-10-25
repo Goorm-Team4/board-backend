@@ -20,7 +20,7 @@ jobs:
 
       - name: Make application-prod.yml file
         run: |
-          cd ./backend/module-core/src/main/resources
+          cd ./src/main/resources
           touch ./application-prod.yml
           echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
         shell: bash
