@@ -26,7 +26,7 @@ jobs:
         shell: bash
 
       - name: Grant Execute Permission For Gradlew
-        run: chmod +x ./backend/gradlew
+        run: chmod +x ./gradlew
 
       - name: Build
         run: |
